@@ -14,12 +14,13 @@ class MainActivity : AppCompatActivity(
 
 ) {
 
-
+    private lateinit var adapteri: Adapteri
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        adapteri = Adapteri(mutableListOf())
 
-
+        itemsView3 = Adapteri(mutableListOf())
 
         }
 
